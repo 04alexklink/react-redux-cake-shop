@@ -1,5 +1,5 @@
 import {createStore} from 'redux'
-const cakeReducer = require('./cakes/cakeReducer')
+import cakeReducer from './cakes/cakeReducer'
 
 const store = createStore(cakeReducer)
 

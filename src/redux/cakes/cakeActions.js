@@ -1,4 +1,4 @@
-import {BUY_CAKE} from './cakeActions'
+import {BUY_CAKE} from './cakeTypes'
 
 
 // action object if were not going to use action creator function to create it for me
@@ -7,7 +7,7 @@ import {BUY_CAKE} from './cakeActions'
 // }
 
 //action creator
-export const buyCakes = () => {
+export const buyCake = () => {
   return {
     type: BUY_CAKE
   }
